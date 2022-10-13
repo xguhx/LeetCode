@@ -21,7 +21,7 @@ const twoSum = (nums, target) => {
   //==================================
   //Better Implementation using Object
   //Better time complexity
-  //Worst space complexity
+  //Worse space complexity
 
   /*
     Parameters: nums = [2, 7, 11, 15], target = 9
