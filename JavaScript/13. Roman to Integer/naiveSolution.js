@@ -15,7 +15,7 @@ module.exports = romanToInt = (s) => {
   6- Return result.
 
 
-
+*/
 
   let romanString = s.split("");
   console.log(romanString);
@@ -39,7 +39,6 @@ module.exports = romanToInt = (s) => {
       result += 9;
     }
 
-  
     if (romanString[i] === "V") {
       result += 5;
     }
@@ -80,6 +79,4 @@ module.exports = romanToInt = (s) => {
   }
 
   return result;
-
-  */
 };
